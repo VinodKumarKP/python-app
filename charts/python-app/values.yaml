@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: vinodkumarkp/python-app
   pullPolicy: IfNotPresent
-  tag: latest
+  tag: c8c234
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
