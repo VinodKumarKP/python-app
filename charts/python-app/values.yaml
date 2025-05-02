@@ -1,8 +1,8 @@
 replicaCount: 1
 image:
-  repository: ricardoandre9707/python-app
+  repository: vinodkumarkp/python-app
   pullPolicy: IfNotPresent
-  tag: ed7159
+  tag: latest
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
@@ -17,7 +17,7 @@ podSecurityContext: {}
 securityContext: {}
 service:
   type: ClusterIP
-  port: 5000
+  port: 5001
 ingress:
   enabled: true
   className: "nginx"
